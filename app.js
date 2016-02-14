@@ -1,6 +1,7 @@
 var greeter = require('./greet');
 
-greeter();
+greeter.english();
+greeter.spanish();
 
 function Person(firstname, lastname)
 {
