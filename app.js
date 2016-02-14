@@ -19,6 +19,10 @@ pattern5.hello();
 greeter.english();
 greeter.spanish();
 
+var util = require('util'); //This is a core module so we can require by name.
+var strformat = util.format('Hello, %s', 'Core!');
+console.log(strformat);
+
 function Person(firstname, lastname)
 {
     this.firstname = firstname;
