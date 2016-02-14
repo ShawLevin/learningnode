@@ -1,4 +1,20 @@
 var greeter = require('./greet');
+var pattern1 = require('./pattern1');
+var pattern2 = require('./pattern2').hello;
+var pattern3a = require('./pattern3');
+pattern3a.greeting = 'pattern3a';
+var pattern3b = require('./pattern3');
+var Pattern4 = require('./pattern4');
+var p4 = new Pattern4();
+var pattern5 = require('./pattern5');
+
+
+pattern1();
+pattern2();
+pattern3a.hello();
+pattern3b.hello();
+p4.hello();
+pattern5.hello();
 
 greeter.english();
 greeter.spanish();
