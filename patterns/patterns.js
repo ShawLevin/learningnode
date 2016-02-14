@@ -1,6 +1,6 @@
 //import * as six from 'pattern6'; ES6, not working yet for me.
 
-var greeter = require('./greet');
+var greeter = require('../greet');
 var pattern1 = require('./pattern1');
 var pattern2 = require('./pattern2').hello;
 var pattern3a = require('./pattern3');
