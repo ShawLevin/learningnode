@@ -1,15 +1,8 @@
-var config = require('./config');
-var Emitter = require('events'); //Node event emitter.
-//var Emitter = require('./emitter'); //Basic custom event emitter.
+var name = 'John Doe';
 
-var emit = new Emitter();
+var greet1 = 'Hello ' + name;
 
-emit.on(config.events.GREET, function() {
-    console.log('someone said hello.');
-});
+var greet2 = `Hello ${ name }`; //ES6 - not yet completely supported. Babel for translations.
 
-emit.on(config.events.GREET, function() {
-    console.log('a greet has happened!.');
-});
-
-emit.emit('greet');
+console.log(greet1);
+console.log(greet2);
