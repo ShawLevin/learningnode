@@ -18,6 +18,10 @@ emit.emit('greet');
 
 
 function ChildOfEmitter() {
+    //Call this to get methods added to the base in addition to the prototype.
+    //This is if the object adds extra methods on top of the prototype.
+    EventEmitter.call(this); 
+    
     console.log('Child of Event Emitter');
     this.name = 'Shaw';
 }
