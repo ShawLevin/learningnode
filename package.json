@@ -1,0 +1,27 @@
+{
+  "name": "learningnode",
+  "version": "1.0.0",
+  "description": "Learning node test app.",
+  "main": "app.js",
+  "scripts": {
+    "test": "",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShawLevin/learningnode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShawLevin/learningnode/issues"
+  },
+  "homepage": "https://github.com/ShawLevin/learningnode#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "moment": "^2.11.2"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
